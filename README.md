@@ -11,6 +11,11 @@ This repo contains files used in a network measurement study: analyzing how stag
 ## Phase 1: Capturing Packets Using tshark
 - `capture.py` file contains code that builds a tshark command for capturing packets and writes the necessary fields (time, size, TP, IPs) of the captured packets into an output file that is later used for analysis.
 
+- Run the command `sudo python capture.py --condition x --interface y --duration z` to start capturing packets going through interface y under condition x for z seconds.
+    - X: takes on 3 values: `live` | `idle` | `research`
+    - Y: specifies the interface you want to capture packets on. eg en1 for WiFi, en0 for Ethernet, etc.
+    - Z: how long you want to capture packets. 
+
 ## Phase 2: Analyzing Patterns in Captured Packets
 
 ## Phase 3: Reporting Findings
