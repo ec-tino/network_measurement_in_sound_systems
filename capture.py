@@ -1,4 +1,3 @@
-# This code is generated with Claude.
 """
 capture.py — tshark-based packet capture for live sound network measurement.
 
@@ -333,3 +332,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# This code is generated with Claude.
