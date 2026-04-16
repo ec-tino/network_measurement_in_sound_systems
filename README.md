@@ -8,8 +8,9 @@ This repo contains files used in a network measurement study: analyzing how stag
     - Idle network eg: network without any live performance
     - Controlled network eg: intentionally controlling sound transmission for analysis.
  
-## Phase 1:
+## Phase 1: Capturing Packets Using tshark
+- `capture.py` file contains code that builds a tshark command for capturing packets and writing the necessary fields (time, size, TP, IPs)of the captured packets into an output file that is later used for analysis.
 
-## Phase 2:
+## Phase 2: Analyzing Patterns in Captured Packets
 
-## Phase 3:
+## Phase 3: Reporting Findings
