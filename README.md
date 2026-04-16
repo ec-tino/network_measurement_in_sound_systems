@@ -13,7 +13,7 @@ This repo contains files used in a network measurement study: analyzing how stag
 
 - Run the command `sudo python capture.py --condition x --interface y --duration z` to start capturing packets going through interface y under condition x for z seconds.
     - X: takes on 3 values: `live` | `idle` | `research`
-    - Y: specifies the interface you want to capture packets on. eg en1 for WiFi, en0 for Ethernet, etc.
+    - Y: specifies the interface you want to capture packets on. eg en1 for WiFi, en0 for Ethernet, etc. NOTE: Use the command `tshark -D` to get a list of available interfaces on your device.
     - Z: how long you want to capture packets. 
 
 ## Phase 2: Analyzing Patterns in Captured Packets
