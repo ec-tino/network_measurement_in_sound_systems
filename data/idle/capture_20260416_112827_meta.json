@@ -1,0 +1,20 @@
+{
+  "condition": "idle",
+  "interface": "en1",
+  "duration_s": 3,
+  "nodes": [],
+  "extra_filter": "",
+  "timestamp": "20260416_112827",
+  "csv_file": "data/idle/capture_20260416_112827.csv",
+  "tshark_fields": [
+    "frame.time_epoch",
+    "frame.len",
+    "ip.src",
+    "ip.dst",
+    "ip.proto",
+    "udp.srcport",
+    "udp.dstport",
+    "tcp.srcport",
+    "tcp.dstport"
+  ]
+}
