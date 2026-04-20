@@ -1,0 +1,2 @@
+condition,total_packets,duration_s,packets_per_min,bytes_total,MB_per_min,avg_packet_size_bytes,median_packet_size_bytes,min_packet_size_bytes,max_packet_size_bytes,std_packet_size_bytes,size_bin_≤64,size_bin_65–128,size_bin_129–256,size_bin_257–512,size_bin_513–1024,size_bin_1025–1280,size_bin_1281–1500,size_bin_>1500,udp_packets,tcp_packets,other_packets,ipg_mean_ms,ipg_median_ms,ipg_p95_ms,ipg_p99_ms,ipg_min_ms,ipg_max_ms,jitter_estimate_ms
+idle,187,3,3740.0,60035,1.201,321.0,99.0,54,1436,417.5,12,95,24,20,13,4,19,0,75,112,0,14.86,0.785,62.07,331.803,0.0,508.56,54.486
