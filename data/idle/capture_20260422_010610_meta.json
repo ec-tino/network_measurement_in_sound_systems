@@ -1,0 +1,24 @@
+{
+  "condition": "idle",
+  "interface": "wireshark-export",
+  "duration_s": 300.021,
+  "nodes": [],
+  "extra_filter": "",
+  "timestamp": "20260422_010610",
+  "csv_file": "data/idle/capture_20260422_010610.csv",
+  "tshark_fields": [
+    "frame.time_epoch",
+    "frame.len",
+    "ip.src",
+    "ip.dst",
+    "ip.proto",
+    "udp.srcport",
+    "udp.dstport",
+    "tcp.srcport",
+    "tcp.dstport"
+  ],
+  "source_file": "idle_packets.pcapng",
+  "source_format": "pcapng",
+  "total_packets": 7663,
+  "note": "Converted from Wireshark pcap export via pcap_to_csv.py"
+}

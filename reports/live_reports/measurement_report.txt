@@ -1,45 +1,7 @@
 ======================================================================
   LIVE SOUND NETWORK — PACKET MEASUREMENT REPORT
-  Generated: 2026-04-22 01:10:13
+  Generated: 2026-04-21 21:20:12
 ======================================================================
-
-─── Idle (Baseline) ───────────────────────────────────────────
-  Duration              : 300.0 s
-  Total Packets         : 7,663
-  Packets / Minute      : 1,532.5
-  Total Data            : 1.717 MB
-  Data / Minute         : 0.343 MB/min
-
-  Packet Size (bytes)
-    Mean   : 224.0
-    Median : 154.0
-    Min    : 60
-    Max    : 1512
-    StdDev : 188.2
-
-  Packet Size Bins
-             ≤64 bytes :  1,116  ( 14.6%)  ███████
-          65–128 bytes :  2,319  ( 30.3%)  ███████████████
-         129–256 bytes :  2,017  ( 26.3%)  █████████████
-         257–512 bytes :  1,255  ( 16.4%)  ████████
-        513–1024 bytes :    918  ( 12.0%)  █████
-       1025–1280 bytes :     21  (  0.3%)  
-       1281–1500 bytes :     14  (  0.2%)  
-           >1500 bytes :      3  (  0.0%)  
-
-  Protocol Breakdown
-    UDP   : 6,272 (81.8%)
-    TCP   : 1 (0.0%)
-    Other : 1,390 (18.1%)
-
-  Inter-Packet Gap (latency proxy, ms)
-    Mean   : 39.157
-    Median : 27.595
-    P95    : 113.212
-    P99    : 226.989
-    Min    : 0.0000
-    Max    : 247.570
-    Jitter : 41.184
 
 ─── Live Show ───────────────────────────────────────────
   Duration              : 300.0 s
