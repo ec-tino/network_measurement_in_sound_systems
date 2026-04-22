@@ -1,0 +1,24 @@
+{
+  "condition": "live",
+  "interface": "wireshark-export",
+  "duration_s": 300.021,
+  "nodes": [],
+  "extra_filter": "",
+  "timestamp": "20260421_211921",
+  "csv_file": "data/live/capture_20260421_211921.csv",
+  "tshark_fields": [
+    "frame.time_epoch",
+    "frame.len",
+    "ip.src",
+    "ip.dst",
+    "ip.proto",
+    "udp.srcport",
+    "udp.dstport",
+    "tcp.srcport",
+    "tcp.dstport"
+  ],
+  "source_file": "live_packets.pcapng",
+  "source_format": "pcapng",
+  "total_packets": 7894,
+  "note": "Converted from Wireshark pcap export via pcap_to_csv.py"
+}

@@ -1,0 +1,52 @@
+======================================================================
+  LIVE SOUND NETWORK — PACKET MEASUREMENT REPORT
+  Generated: 2026-04-21 21:20:12
+======================================================================
+
+─── Live Show ───────────────────────────────────────────
+  Duration              : 300.0 s
+  Total Packets         : 7,894
+  Packets / Minute      : 1,578.7
+  Total Data            : 2.143 MB
+  Data / Minute         : 0.429 MB/min
+
+  Packet Size (bytes)
+    Mean   : 271.4
+    Median : 194.0
+    Min    : 60
+    Max    : 1310
+    StdDev : 200.6
+
+  Packet Size Bins
+             ≤64 bytes :    250  (  3.2%)  █
+          65–128 bytes :  2,609  ( 33.1%)  ████████████████
+         129–256 bytes :  1,990  ( 25.2%)  ████████████
+         257–512 bytes :  1,523  ( 19.3%)  █████████
+        513–1024 bytes :  1,520  ( 19.3%)  █████████
+       1025–1280 bytes :      0  (  0.0%)  
+       1281–1500 bytes :      2  (  0.0%)  
+           >1500 bytes :      0  (  0.0%)  
+
+  Protocol Breakdown
+    UDP   : 7,421 (94.0%)
+    TCP   : 1 (0.0%)
+    Other : 472 (6.0%)
+
+  Inter-Packet Gap (latency proxy, ms)
+    Mean   : 38.011
+    Median : 25.932
+    P95    : 111.043
+    P99    : 138.627
+    Min    : 0.0000
+    Max    : 156.663
+    Jitter : 36.009
+
+──────────────────────────────────────────────────────────────────────
+  NOTES
+  • Latency figures are inter-packet gap proxies, not round-trip latency.
+  • For true RTT, configure tshark to capture both outbound and inbound
+    streams and match packet IDs.
+  • Audio synchronisation threshold: <10 ms (Wessel & Wright, 2002)
+  • Dante/RTP ideal target: <3 ms (Mitchell et al., 2014)
+  • Jitter should be <1 ms for professional audio (McPherson et al., 2016)
+======================================================================
