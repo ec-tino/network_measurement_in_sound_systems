@@ -1,0 +1,33 @@
+mac,ip,vendor,device_type,pkts_sent,pkts_recv,pkts_total,ports
+00:04:c4:0f:08:bd,10.157.0.42,Allen & Heath,🎛  Allen & Heath (AVB stream),1236,0,1236,"mDNS, AVB/AVTP"
+00:60:74:ee:cd:f7,10.157.0.21,QSC Audio,🔊  QSC Amplifier (AVB stream),1057,0,1057,"mDNS, AVB/AVTP"
+48:0b:b2:d1:21:14,10.157.0.46,Midas / Behringer / MUSIC Group,🎛  Mixer / Stage Box,916,0,916,"mDNS, AVB/AVTP"
+00:1b:66:38:a3:72,10.157.0.50,Shure,🎤  Shure Wireless (AVB stream),613,0,613,"mDNS, AVB/AVTP"
+00:04:c4:0c:f6:50,10.157.0.44,Allen & Heath,🎛  Allen & Heath (AVB stream),613,0,613,"mDNS, AVB/AVTP"
+00:1b:66:38:dc:e7,10.157.0.48,Shure,🎤  Shure Wireless (AVB stream),607,0,607,"mDNS, AVB/AVTP"
+00:1b:66:38:a8:94,10.157.0.47,Shure,🎤  Shure Wireless (AVB stream),606,0,606,"mDNS, AVB/AVTP"
+00:1b:66:38:df:3c,10.157.0.49,Shure,🎤  Shure Wireless (AVB stream),605,0,605,"mDNS, AVB/AVTP"
+00:1d:c1:9a:97:15,10.157.0.23,Audinate,🎵  Dante Network Device,309,0,309,"mDNS, AVB/AVTP"
+ec:67:94:61:8d:a0,—,Apple,💻  Control Computer,160,0,160,—
+00:e0:4c:f6:45:cd,10.157.0.10,Realtek NIC,🔌  Network Device,98,38,136,mDNS
+18:c3:f4:20:95:07,10.157.0.225,Allen & Heath,🎛  Mixer / Stage Box,128,0,128,mDNS
+18:c3:f4:20:77:44,10.157.0.68,Allen & Heath,🎛  Mixer / Stage Box,110,0,110,mDNS
+18:c3:f4:20:95:08,10.157.0.215,Allen & Heath,🎛  Mixer / Stage Box,110,0,110,mDNS
+18:c3:f4:20:77:2c,10.157.0.220,Allen & Heath,🎛  Mixer / Stage Box,109,0,109,mDNS
+18:c3:f4:20:95:4d,10.157.0.206,Allen & Heath,🎛  Mixer / Stage Box,104,0,104,mDNS
+06:3c:62:5c:d8:99,10.157.0.236,Unknown,❓  Unknown Device,97,0,97,mDNS
+ec:67:94:62:cf:00,10.157.0.6,Apple,💻  Control Computer,66,0,66,—
+00:1a:1e:06:c6:d0,10.82.1.50,Unknown,❓  Unknown Device,35,0,35,mDNS
+00:0c:1e:06:88:f2,10.157.0.24,Shure,🎤  Wireless Mic / IEM,30,0,30,AVB-MAAP
+14:9d:99:7f:26:6b,10.157.18.19,Unknown,❓  Unknown Device,5,23,28,mDNS
+00:1a:1e:06:c4:a0,10.82.1.60,Unknown,❓  Unknown Device,21,0,21,mDNS
+b4:0c:25:e0:c0:12,—,Unknown,❓  Unknown Device,6,0,6,—
+5c:a1:3c:b9:76:c5,10.157.0.69,QSC Audio,🔊  Amplifier / DSP,6,0,6,mDNS
+d4:20:00:a0:69:97,10.157.0.203,Shure,🎤  Wireless Mic / IEM,4,0,4,mDNS
+a8:52:d4:c1:3b:c0,—,Unknown,❓  Unknown Device,3,0,3,—
+a4:0e:75:c2:a4:c0,—,Unknown,❓  Unknown Device,3,0,3,—
+04:7c:16:1d:74:c8,10.157.0.62,Unknown,❓  Unknown Device,3,0,3,mDNS
+00:05:a6:28:98:d1,10.157.0.52,Unknown,❓  Unknown Device,0,1,1,—
+00:0e:98:0d:04:91,10.157.0.30,Unknown,❓  Unknown Device,1,0,1,mDNS
+dc:cd:2f:48:5c:d5,10.157.0.239,Unknown,❓  Unknown Device,1,0,1,mDNS
+00:1b:66:38:dc:e6,—,Shure,🎤  Wireless Mic / IEM,1,0,1,—

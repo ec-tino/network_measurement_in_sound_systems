@@ -1,0 +1,350 @@
+========================================================================
+  SOUND NETWORK — DEVICE ANALYSIS REPORT
+  Source file : idle_packets.pcapng
+  Condition   : idle
+  Generated   : 2026-04-26 12:58:05
+========================================================================
+
+  Total devices identified : 32
+  Total unicast pairs      : 53
+
+────────────────────────────────────────────────────────────────────────
+  DEVICE INVENTORY
+────────────────────────────────────────────────────────────────────────
+
+  [01]  🎛  Allen & Heath (AVB stream)
+        IP      : 10.157.0.42
+        MAC     : 00:04:c4:0f:08:bd
+        Vendor  : Allen & Heath
+        Sent    : 1,236 pkts  (597.1 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS, AVB/AVTP
+
+  [02]  🔊  QSC Amplifier (AVB stream)
+        IP      : 10.157.0.21
+        MAC     : 00:60:74:ee:cd:f7
+        Vendor  : QSC Audio
+        Sent    : 1,057 pkts  (146.0 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS, AVB/AVTP
+
+  [03]  🎛  Mixer / Stage Box
+        IP      : 10.157.0.46
+        MAC     : 48:0b:b2:d1:21:14
+        Vendor  : Midas / Behringer / MUSIC Group
+        Sent    : 916 pkts  (222.1 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS, AVB/AVTP
+
+  [04]  🎤  Shure Wireless (AVB stream)
+        IP      : 10.157.0.50
+        MAC     : 00:1b:66:38:a3:72
+        Vendor  : Shure
+        Sent    : 613 pkts  (98.0 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS, AVB/AVTP
+
+  [05]  🎛  Allen & Heath (AVB stream)
+        IP      : 10.157.0.44
+        MAC     : 00:04:c4:0c:f6:50
+        Vendor  : Allen & Heath
+        Sent    : 613 pkts  (157.6 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS, AVB/AVTP
+
+  [06]  🎤  Shure Wireless (AVB stream)
+        IP      : 10.157.0.48
+        MAC     : 00:1b:66:38:dc:e7
+        Vendor  : Shure
+        Sent    : 607 pkts  (97.4 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS, AVB/AVTP
+
+  [07]  🎤  Shure Wireless (AVB stream)
+        IP      : 10.157.0.47
+        MAC     : 00:1b:66:38:a8:94
+        Vendor  : Shure
+        Sent    : 606 pkts  (96.6 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS, AVB/AVTP
+
+  [08]  🎤  Shure Wireless (AVB stream)
+        IP      : 10.157.0.49
+        MAC     : 00:1b:66:38:df:3c
+        Vendor  : Shure
+        Sent    : 605 pkts  (97.2 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS, AVB/AVTP
+
+  [09]  🎵  Dante Network Device
+        IP      : 10.157.0.23
+        MAC     : 00:1d:c1:9a:97:15
+        Vendor  : Audinate
+        Sent    : 309 pkts  (48.0 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS, AVB/AVTP
+
+  [10]  💻  Control Computer
+        IP      : —
+        MAC     : ec:67:94:61:8d:a0
+        Vendor  : Apple
+        Sent    : 160 pkts  (19.9 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: —
+
+  [11]  🔌  Network Device
+        IP      : 10.157.0.10
+        MAC     : 00:e0:4c:f6:45:cd
+        Vendor  : Realtek NIC
+        Sent    : 98 pkts  (61.7 KB)
+        Received: 38 pkts  (6.4 KB)
+        Services: mDNS
+
+  [12]  🎛  Mixer / Stage Box
+        IP      : 10.157.0.225
+        MAC     : 18:c3:f4:20:95:07
+        Vendor  : Allen & Heath
+        Sent    : 128 pkts  (8.5 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [13]  🎛  Mixer / Stage Box
+        IP      : 10.157.0.68
+        MAC     : 18:c3:f4:20:77:44
+        Vendor  : Allen & Heath
+        Sent    : 110 pkts  (7.0 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [14]  🎛  Mixer / Stage Box
+        IP      : 10.157.0.215
+        MAC     : 18:c3:f4:20:95:08
+        Vendor  : Allen & Heath
+        Sent    : 110 pkts  (7.0 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [15]  🎛  Mixer / Stage Box
+        IP      : 10.157.0.220
+        MAC     : 18:c3:f4:20:77:2c
+        Vendor  : Allen & Heath
+        Sent    : 109 pkts  (7.3 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [16]  🎛  Mixer / Stage Box
+        IP      : 10.157.0.206
+        MAC     : 18:c3:f4:20:95:4d
+        Vendor  : Allen & Heath
+        Sent    : 104 pkts  (7.0 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [17]  ❓  Unknown Device
+        IP      : 10.157.0.236
+        MAC     : 06:3c:62:5c:d8:99
+        Vendor  : Unknown
+        Sent    : 97 pkts  (6.1 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [18]  💻  Control Computer
+        IP      : 10.157.0.6
+        MAC     : ec:67:94:62:cf:00
+        Vendor  : Apple
+        Sent    : 66 pkts  (8.6 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: —
+
+  [19]  ❓  Unknown Device
+        IP      : 10.82.1.50
+        MAC     : 00:1a:1e:06:c6:d0
+        Vendor  : Unknown
+        Sent    : 35 pkts  (6.0 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [20]  🎤  Wireless Mic / IEM
+        IP      : 10.157.0.24
+        MAC     : 00:0c:1e:06:88:f2
+        Vendor  : Shure
+        Sent    : 30 pkts  (7.4 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: AVB-MAAP
+
+  [21]  ❓  Unknown Device
+        IP      : 10.157.18.19
+        MAC     : 14:9d:99:7f:26:6b
+        Vendor  : Unknown
+        Sent    : 5 pkts  (1.3 KB)
+        Received: 23 pkts  (3.8 KB)
+        Services: mDNS
+
+  [22]  ❓  Unknown Device
+        IP      : 10.82.1.60
+        MAC     : 00:1a:1e:06:c4:a0
+        Vendor  : Unknown
+        Sent    : 21 pkts  (3.6 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [23]  ❓  Unknown Device
+        IP      : —
+        MAC     : b4:0c:25:e0:c0:12
+        Vendor  : Unknown
+        Sent    : 6 pkts  (0.4 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: —
+
+  [24]  🔊  Amplifier / DSP
+        IP      : 10.157.0.69
+        MAC     : 5c:a1:3c:b9:76:c5
+        Vendor  : QSC Audio
+        Sent    : 6 pkts  (1.1 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [25]  🎤  Wireless Mic / IEM
+        IP      : 10.157.0.203
+        MAC     : d4:20:00:a0:69:97
+        Vendor  : Shure
+        Sent    : 4 pkts  (0.6 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [26]  ❓  Unknown Device
+        IP      : —
+        MAC     : a8:52:d4:c1:3b:c0
+        Vendor  : Unknown
+        Sent    : 3 pkts  (0.2 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: —
+
+  [27]  ❓  Unknown Device
+        IP      : —
+        MAC     : a4:0e:75:c2:a4:c0
+        Vendor  : Unknown
+        Sent    : 3 pkts  (0.2 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: —
+
+  [28]  ❓  Unknown Device
+        IP      : 10.157.0.62
+        MAC     : 04:7c:16:1d:74:c8
+        Vendor  : Unknown
+        Sent    : 3 pkts  (2.1 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [29]  ❓  Unknown Device
+        IP      : 10.157.0.52
+        MAC     : 00:05:a6:28:98:d1
+        Vendor  : Unknown
+        Sent    : 0 pkts  (0.0 KB)
+        Received: 1 pkts  (0.1 KB)
+        Services: —
+
+  [30]  ❓  Unknown Device
+        IP      : 10.157.0.30
+        MAC     : 00:0e:98:0d:04:91
+        Vendor  : Unknown
+        Sent    : 1 pkts  (0.3 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [31]  ❓  Unknown Device
+        IP      : 10.157.0.239
+        MAC     : dc:cd:2f:48:5c:d5
+        Vendor  : Unknown
+        Sent    : 1 pkts  (0.3 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: mDNS
+
+  [32]  🎤  Wireless Mic / IEM
+        IP      : —
+        MAC     : 00:1b:66:38:dc:e6
+        Vendor  : Shure
+        Sent    : 1 pkts  (0.1 KB)
+        Received: 0 pkts  (0.0 KB)
+        Services: —
+
+────────────────────────────────────────────────────────────────────────
+  TOP TALKERS (by packets sent)
+────────────────────────────────────────────────────────────────────────
+  🎛  Allen & Heath (AVB stream)             10.157.0.42        1,236 pkts     597.1 KB
+  🔊  QSC Amplifier (AVB stream)             10.157.0.21        1,057 pkts     146.0 KB
+  🎛  Mixer / Stage Box                      10.157.0.46          916 pkts     222.1 KB
+  🎤  Shure Wireless (AVB stream)            10.157.0.50          613 pkts      98.0 KB
+  🎛  Allen & Heath (AVB stream)             10.157.0.44          613 pkts     157.6 KB
+
+────────────────────────────────────────────────────────────────────────
+  TOP RECEIVERS (by packets received)
+────────────────────────────────────────────────────────────────────────
+  🔌  Network Device                         10.157.0.10           38 pkts       6.4 KB
+  ❓  Unknown Device                         10.157.18.19          23 pkts       3.8 KB
+  ❓  Unknown Device                         10.157.0.52            1 pkts       0.1 KB
+  🎛  Allen & Heath (AVB stream)             10.157.0.42            0 pkts       0.0 KB
+  🔊  QSC Amplifier (AVB stream)             10.157.0.21            0 pkts       0.0 KB
+
+────────────────────────────────────────────────────────────────────────
+  DEVICE-TO-DEVICE COMMUNICATION
+────────────────────────────────────────────────────────────────────────
+  Source                            → Destination                         Pkts   Avg Size  Protocol / Service
+  ----------------------------------------------------------------------
+  10.157.0.42 (Allen & Heath)       → 224.0.0.233 (AVB/AVTP Multica)     1,200      488B  AVB/AVTP
+  10.157.0.46 (Midas)               → 224.0.0.233 (AVB/AVTP Multica)       900      242B  AVB/AVTP
+  10.157.0.47 (Shure)               → 224.0.0.233 (AVB/AVTP Multica)       601      160B  AVB/AVTP
+  10.157.0.21 (QSC Audio)           → 224.0.0.233 (AVB/AVTP Multica)       600      196B  AVB/AVTP
+  10.157.0.50 (Shure)               → 224.0.0.233 (AVB/AVTP Multica)       600      160B  AVB/AVTP
+  10.157.0.48 (Shure)               → 224.0.0.233 (AVB/AVTP Multica)       600      160B  AVB/AVTP
+  10.157.0.49 (Shure)               → 224.0.0.233 (AVB/AVTP Multica)       600      160B  AVB/AVTP
+  10.157.0.44 (Allen & Heath)       → 224.0.0.233 (AVB/AVTP Multica)       588      258B  AVB/AVTP
+  10.157.0.21 (QSC Audio)           → (unknown) (Multicast)                447       60B  —
+  10.157.0.23 (Audinate)            → 224.0.0.233 (AVB/AVTP Multica)       298      154B  AVB/AVTP
+  None (Apple)                      → (unknown) (Multicast)                160      125B  —
+  10.157.0.225 (Allen & Heath)      → (unknown) (Multicast)                123       60B  —
+  10.157.0.215 (Allen & Heath)      → (unknown) (Multicast)                106       60B  —
+  10.157.0.68 (Allen & Heath)       → (unknown) (Multicast)                106       60B  —
+  10.157.0.220 (Allen & Heath)      → (unknown) (Multicast)                103       60B  —
+  10.157.0.206 (Allen & Heath)      → (unknown) (Multicast)                 98       60B  —
+  10.157.0.236 (Unknown)            → (unknown) (Multicast)                 94       60B  —
+  10.157.0.10 (Realtek NIC)         → (unknown) (Multicast)                 66      543B  —
+  10.157.0.6 (Apple)                → (unknown) (Multicast)                 63      133B  —
+  10.157.0.42 (Allen & Heath)       → 224.0.0.251 (mDNS Multicast)          36      319B  mDNS
+  10.82.1.50 (Unknown)              → 10.157.0.10 (Realtek NIC)             35      171B  mDNS
+  10.157.0.24 (Shure)               → 239.255.250.250 (Multicast)           30      247B  AVB-MAAP
+  10.157.0.10 (Realtek NIC)         → 224.0.0.251 (mDNS Multicast)          30      856B  mDNS
+  10.157.0.44 (Allen & Heath)       → 224.0.0.251 (mDNS Multicast)          24      242B  mDNS
+  10.82.1.60 (Unknown)              → 10.157.18.19 (Unknown)                21      171B  mDNS
+  10.157.0.46 (Midas)               → 224.0.0.251 (mDNS Multicast)          16      271B  mDNS
+  10.157.0.50 (Shure)               → 224.0.0.251 (mDNS Multicast)          12      160B  mDNS
+  None (Unknown)                    → (unknown) (Multicast)                 12       60B  —
+  10.157.0.23 (Audinate)            → 224.0.0.251 (mDNS Multicast)          11      193B  mDNS
+  10.157.0.21 (QSC Audio)           → 224.0.0.251 (mDNS Multicast)           9      170B  mDNS
+  10.157.0.48 (Shure)               → 224.0.0.251 (mDNS Multicast)           7      205B  mDNS
+  10.157.0.220 (Allen & Heath)      → 224.0.0.251 (mDNS Multicast)           6      194B  mDNS
+  10.157.0.206 (Allen & Heath)      → 224.0.0.251 (mDNS Multicast)           6      191B  mDNS
+  10.157.0.69 (QSC Audio)           → 224.0.0.251 (mDNS Multicast)           6      181B  mDNS
+  10.157.0.47 (Shure)               → 224.0.0.251 (mDNS Multicast)           5       97B  mDNS
+  10.157.0.225 (Allen & Heath)      → 224.0.0.251 (mDNS Multicast)           5      219B  mDNS
+  10.157.0.49 (Shure)               → 224.0.0.251 (mDNS Multicast)           5      235B  mDNS
+  10.157.0.203 (Shure)              → 224.0.0.251 (mDNS Multicast)           4      141B  mDNS
+  10.157.0.215 (Allen & Heath)      → 224.0.0.251 (mDNS Multicast)           4      169B  mDNS
+  10.157.0.68 (Allen & Heath)       → 224.0.0.251 (mDNS Multicast)           4      154B  mDNS
+  10.157.0.6 (Apple)                → 224.0.0.1 (All-Hosts Multic)           3       60B  2
+  10.157.0.236 (Unknown)            → 224.0.0.251 (mDNS Multicast)           3      160B  mDNS
+  10.157.18.19 (Unknown)            → 10.157.0.10 (Realtek NIC)              3      141B  —
+  10.157.0.62 (Unknown)             → 224.0.0.251 (mDNS Multicast)           3      698B  mDNS
+  10.157.0.10 (Realtek NIC)         → 10.157.18.19 (Unknown)                 2       82B  —
+  10.157.0.50 (Shure)               → (unknown) (Multicast)                  1       70B  —
+  10.157.18.19 (Unknown)            → 224.0.0.251 (mDNS Multicast)           1      450B  mDNS
+  10.157.18.19 (Unknown)            → (unknown) (Multicast)                  1      470B  —
+  10.157.0.21 (QSC Audio)           → 10.157.0.52 (Unknown)                  1       66B  23
+  10.157.0.44 (Allen & Heath)       → (unknown) (Multicast)                  1       60B  —
+  10.157.0.30 (Unknown)             → 224.0.0.251 (mDNS Multicast)           1      327B  mDNS
+  10.157.0.239 (Unknown)            → 224.0.0.251 (mDNS Multicast)           1      322B  mDNS
+  None (Shure)                      → (unknown) (Multicast)                  1       70B  —
+
+========================================================================
+  END OF REPORT
+========================================================================
