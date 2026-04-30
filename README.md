@@ -43,3 +43,10 @@ This repo contains files used in a network measurement study: analyzing how stag
 - To perform the network device analysis, run the command `python device_analysis.py path_to_file.pcapng --condition one_of_three`. For example, to analyze the network for my live capture packets, I run the command `python device_analysis.py packets_captured/live_packets.pcapng --condition live`. The output of the command is written into a subdirectory called `device analysis` in the `reports` directory. 
 
 ## Phase 3: Reporting Findings
+- Packet size is where idle and live actually differ. Packet counts are similar across both conditions, but the average size grows from 224B at idle to 271B during the live session as audio frames mix into the background traffic.
+- The network is almost entirely UDP; UDP is the protocol for real-time audio transmission. Both conditions show over 80% UDP traffic
+- We identified 30 devices from MAC addresses alone. Allen & Heath mixers, Shure wireless systems, QSC amplifiers, a Midas desk, a Mac computer, and an Audinate Dante unit. These devices were identified based on the packets captured.
+- All audio moves through multicast, not direct device-to-device links. Every audio packet goes to the group address. No device streams directly to another; they all broadcast to the group, and subscribed devices pick it up.
+- The four Shure wireless units each sent exactly 600 packets of exactly 160 bytes. A clear example of identical hardware streaming a single audio channel at a fixed rate.
+
+- For a more detailed research report, read the `sound_networks.pdf` file.
