@@ -7,6 +7,8 @@ This repo contains files used in a network measurement study: analyzing how stag
     - Active network usage eg: during a live concert
     - Idle network eg: network without any live performance
     - Controlled network eg: intentionally controlling sound transmission for analysis.
+- what audio devices on the network transmit the most packets?
+- what pair of audio devices communicates most over the sound network?
  
 ## Phase 1: Capturing Packets Using tshark
 - `capture.py` file contains code that builds a tshark command for capturing packets and writes the necessary fields (time, size, TP, IPs) of the captured packets into an output file that is later used for analysis.
